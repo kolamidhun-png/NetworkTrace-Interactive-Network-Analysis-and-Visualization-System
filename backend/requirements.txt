@@ -1,0 +1,7 @@
+﻿fastapi
+uvicorn[standard]
+pandas
+networkx
+python-multipart
+pytest
+httpx
