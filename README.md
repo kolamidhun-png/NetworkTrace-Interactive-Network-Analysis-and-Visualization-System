@@ -66,7 +66,7 @@ Frontend: http://localhost:5173
 ```powershell
 cd "D:\Kola Personal\Downloads\NetworkTrace_NextGen\backend"
 .\.venv\Scripts\Activate.ps1
-python -m pytest -v
+python -m uvicorn app.main:app --reload
 ```
 
 ### Build the Frontend
