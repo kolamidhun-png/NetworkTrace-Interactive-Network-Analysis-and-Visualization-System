@@ -73,7 +73,8 @@ python -m uvicorn app.main:app --reload
 
 ```powershell
 cd "D:\Kola Personal\Downloads\NetworkTrace_NextGen\frontend"
-npm run build
+npm install
+npm run dev
 ```
 
 ## CSV Upload Format
